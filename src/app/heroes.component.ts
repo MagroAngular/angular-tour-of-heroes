@@ -31,6 +31,11 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = null;
   }
 
+  addHero1(): void {
+    this.addingHero = true;
+    this.selectedHero = null;
+  }
+
   close(savedHero: Hero): void {
     this.addingHero = false;
     if (savedHero) {
