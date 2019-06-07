@@ -24,7 +24,7 @@ export class HeroesComponent implements OnInit {
         heroes => (this.heroes = heroes),
         error => (this.error = error)
       )
-  }
+  } 
 
   addHero(): void {
     this.addingHero = true;
