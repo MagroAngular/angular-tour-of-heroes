@@ -47,7 +47,23 @@ export class HeroesComponent implements OnInit {
     if (savedHero) {
       this.getHeroes();
     }
+    if (savedHero) {
+      this.getHeroes();
+    }
+    if (savedHero) {
+      this.getHeroes();
+    }
+  
   }
+
+  clos2e(savedHero: Hero): void {
+    this.addingHero = false;
+    if (savedHero) {
+      this.getHeroes();
+    }
+  
+  }
+
 
   deleteHero(hero: Hero, event: any): void {
     event.stopPropagation();
