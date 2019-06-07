@@ -28,6 +28,12 @@ export class HeroesComponent implements OnInit {
 
   addHero(): void {
     this.addingHero = true;
+    let pepe = '';
+    this.selectedHero = null;
+  }
+
+  addHero3(): void {
+    this.addingHero = true;
     this.selectedHero = null;
   }
 
