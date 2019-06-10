@@ -1,0 +1,562 @@
+module shoppingCartSva.Controllers {
+    'use strict';
+
+    /**
+     * @ngdoc controller
+     * @name ShoppingCartSva.Controllers:ShoppingCartSvaCtrl
+     * @author Daniel Gamo
+     * @description
+     * Controlador de SVA para el shopping cart
+     */
+    export class ShoppingCartSvaCtrl extends OrangeFeSARQ.Controllers.ParentController {
+        static $inject = ['$injector', '$scope'];
+
+        // Bindings
+        public act;
+        public option;
+        public showpopupsvas = false;
+        public actIndex;
+
+        // Injection vars
+        public shoppingCartSrv;
+        public spinnerBlockSrv;
+
+        // OWCS
+        private shoppingCartSvaCompOWCSStore;
+        private title: string;
+        private listImage;
+        private listLabel;
+        private owcs;
+
+        // Session
+        public sessionClient;
+        public clientSegment;
+        public img: string;
+
+        public interestedSvas = [];
+        public $rootScope;
+
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:ShoppingCartSvaCtrl#constructor
+         * @param {Object} $injector componente que necesita el parent injector.
+         * @param {Object} $scope componente que necesita el parent injector.
+         * @methodOf shoppingCartSva.Controllers:ShoppingCartSvaCtrl
+         * @description
+         * Incluye las dependencias necesarias e inicializa el componente con initComp
+         */
+        constructor(public $injector, public $scope) {
+            super($injector);
+            let vm = this;
+
+            vm.setInjections($injector);
+            vm.initComp();
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:ShoppingCartSvaCtrl#setInjections
+         * @param {Object} $injector componente que necesita el parent injector.
+         * @methodOf shoppingCartSva.Controllers:ShoppingCartSvaCtrl
+         * @description
+         * Incluye las dependencias necesarias
+         */
+        setInjections($injector) {
+            let vm = this;
+
+            vm.$rootScope = $injector.get('$rootScope');
+
+            vm.shoppingCartSrv = $injector.get('shoppingCartSrv');
+            vm.spinnerBlockSrv = $injector.get('spinnerBlockSrv');
+            //vm.extraInfoPopupSrv = $injector.get('extraInfoPopupSrv');
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:ShoppingCartSvaCtrl#initComp
+         * @methodOf shoppingCartSva.Controllers:ShoppingCartSvaCtrl
+         * @description
+         * Inicializa la lógica del componente
+         */
+        initComp() {
+            let vm = this;
+            vm.$rootScope.$on('interested', (event, data) => {
+                let selected: any = _.find(vm.act.cartItem, { 'ospSelected': true });
+
+                if (data.id === selected.idOption) {
+                    vm.interestedSvas = data.sva;
+                }
+            });
+            vm.getOWCSData();
+            vm.getClientSegment();
+            vm.watchOption();
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:ShoppingCartSvaCtrl#getOWCSData
+         * @methodOf shoppingCartSva.Controllers:ShoppingCartSvaCtrl
+         * @description
+         * Obtiene los datos de OWCS
+         */
+        getOWCSData() {
+            let vm = this;
+
+            if (vm.shoppingCartSvaCompOWCSStore && vm.shoppingCartSvaCompOWCSStore.section) {
+                let owcsStore = vm.shoppingCartSvaCompOWCSStore.section;
+                let listImage = owcsStore.listImage;
+
+                vm.title = owcsStore.title;
+
+                vm.listImage = {};
+                vm.owcs = {};
+
+                // LABELS
+                if (owcsStore.listLabel && owcsStore.listLabel.length > 0) {
+                    vm.owcs.listLabel = {};
+                    for (let i = 0; i < owcsStore.listLabel.length; i++) {
+                        vm.owcs.listLabel.currency = vm.utils.findByName('euro.month', owcsStore.listLabel); // 
+                        vm.owcs.listLabel.euros = vm.utils.findByName('euro', owcsStore.listLabel); //
+                        vm.owcs.listLabel.in = vm.utils.findByName('in', owcsStore.listLabel);
+                        vm.owcs.listLabel.instalments = vm.utils.findByName('instalments', owcsStore.listLabel);
+                        vm.owcs.listLabel.initialPayment = vm.utils.findByName('initial.payment-options', owcsStore.listLabel);
+                        vm.owcs.listLabel.while = vm.utils.findByName('while', owcsStore.listLabel); //
+                        vm.owcs.listLabel.then = vm.utils.findByName('then', owcsStore.listLabel); //
+                        vm.owcs.listLabel.months = vm.utils.findByName('months', owcsStore.listLabel); //
+                        vm.owcs.listLabel.singlePayment = vm.utils.findByName('single.payment', owcsStore.listLabel); //
+                        vm.owcs.listLabel.insurance = vm.utils.findByName('insurance', owcsStore.listLabel); //
+                        vm.owcs.listLabel.notSva = vm.utils.findByName('not.sva', owcsStore.listLabel);
+                        vm.owcs.listLabel.svas = vm.utils.findByName('value.added.services', owcsStore.listLabel);
+                    }
+                }
+
+                // IMAGES
+                for (let j in listImage) {
+                    if (listImage[j]) {
+                        switch (listImage[j].name) {
+                            case 'icon_tv':
+                                vm.listImage.icon_tv = listImage[j].imageFile_bloblink_;
+                                break;
+                            case 'icon_protection_orange':
+                                vm.listImage.icon_protection = listImage[j].imageFile_bloblink_;
+                                break;
+                            case 'icon_puzzle':
+                                vm.listImage.icon_puzzle = listImage[j].imageFile_bloblink_;
+                                break;
+                            case 'icon_info_blue':
+                                vm.listImage.icon_info = listImage[j].imageFile_bloblink_;
+                                break;
+                            case 'icon-trash':
+                                vm.listImage.icon_delete = listImage[j].imageFile_bloblink_;
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+
+                // ENLACES
+                if (owcsStore.listDeepLink && owcsStore.listDeepLink.length > 0) {
+                    vm.owcs.listDeepLink = {};
+                    for (let i = 0; i < owcsStore.listDeepLink.length; i++) {
+                        if (owcsStore.listDeepLink[i].name === 'add.sva') {
+                            vm.owcs.btnAceptar = owcsStore.listDeepLink[i];
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartOptions.Controllers:ShoppingCartOptionsCtrl#getClientSegment
+         * @methodOf shoppingCartOptions.Controllers:ShoppingCartOptionsCtrl
+         * @description
+         * Obtiene el tipo de segmento del cliente
+         */
+        getClientSegment() {
+            let vm = this;
+
+            if (sessionStorage.getItem('clientData') && JSON.parse(sessionStorage.getItem('clientData')) !== undefined) {
+                vm.sessionClient = JSON.parse(sessionStorage.getItem('clientData'));
+            } else {
+                vm.sessionClient = JSON.parse(sessionStorage.getItem('defaulData'));
+            }
+
+            if (!vm.sessionClient
+                || (vm.sessionClient && (!vm.sessionClient.ospCustomerSegment || vm.sessionClient.ospCustomerSegment === ''))) {
+                vm.clientSegment = 'residencial';
+            } else {
+                vm.clientSegment = vm.sessionClient.ospCustomerSegment;
+            }
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#watchOptibn
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @description
+         * Escucha los cambios en la opción para actualizar la información del ads
+         */
+        watchOption() {
+            let vm = this;
+
+            vm.$scope.$watch(
+                () => vm.option.fatherOption, (newValue, oldValue) => {
+                    if (newValue !== oldValue) {
+                        let idx = _.findIndex(vm.act.cartItem, { 'ospSelected': true });
+                        if (vm.act.cartItem[idx].ospSelected === true && vm.option.ospSelected === true) {
+                            vm.act.cartItem.splice(idx, 1, vm.option);
+                            let sessionshoppingcart = JSON.parse(sessionStorage.getItem('shoppingCart'));
+                            let indexCart = _.findIndex(sessionshoppingcart.cartItem, (cartItem: any) => {
+                                return cartItem.id === vm.option.idOption;
+                            });
+                            sessionshoppingcart.cartItem.splice(indexCart, 1, vm.option.fatherOption);
+                            sessionStorage.setItem('shoppingCart', JSON.stringify(sessionshoppingcart));
+                        }
+                    }
+                }, true
+            );
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:ShoppingCartSvaCtrl#deleteSva
+         * @methodOf shoppingCartSva.Controllers:ShoppingCartSvaCtrl
+         * @param {number} idx posición de Sva en carrito
+         * @description
+         * Elimina un SVA
+         */
+        deleteSva(idx) {
+            let vm = this;
+
+            let action = vm.option.fatherOption.cartItem[idx].action;
+
+            vm.option.fatherOption.cartItem[idx].action = 'Discard';
+
+            vm.spinnerBlockSrv.show = true;
+
+            let clientData = JSON.parse(sessionStorage.getItem('clientData'));
+
+            let customerData: any = {
+                'id': clientData ? clientData.docNumber : null,
+                'relatedPartyRef': {},
+                'status': ''
+            };
+
+            customerData.status = sessionStorage.getItem('cv') ? '1' : '0';
+
+            // Recuperamos datos del cliente
+            if (clientData && clientData.ospCustomerSegment && clientData.ospCustomerSegment !== '') {
+                if (clientData.ospCustomerSegment.toLowerCase() === 'residencial') {
+                    customerData.customerCharacteristic = [{
+                        'name': 'segment',
+                        'value': '0',
+                    }];
+                } else if (clientData.ospCustomerSegment.toLowerCase() === 'empresa') {
+                    customerData.customerCharacteristic = [{
+                        'name': 'segment',
+                        'value': '1',
+                    }];
+                } else if (clientData.ospCustomerSegment.toLowerCase() === 'autonomo') {
+                    customerData.customerCharacteristic = [{
+                        'name': 'segment',
+                        'value': '2',
+                    }];
+                }
+            } else { //Por defecto se coge Residencial como segmento
+                customerData.customerCharacteristic = [{
+                    'name': 'segment',
+                    'value': '0',
+                }];
+            }
+
+            if (clientData) {
+                if (!clientData.ospCustomerSegment || clientData.ospCustomerSegment.toLowerCase() === 'residencial') {
+                    customerData.relatedPartyRef.individual = {
+                        'id': clientData.docNumber,
+                    };
+                    customerData.relatedPartyRef.organization = null;
+                } else {
+                    customerData.relatedPartyRef.organization = {
+                        'id': clientData.docNumber,
+                    };
+                    customerData.relatedPartyRef.individual = null;
+                }
+            }
+
+            vm.shoppingCartSrv.generateShoppingCart(vm.option.fatherOption, 'shoppingCartSva', customerData)
+                .then(
+                    (data) => {
+                        if (!data.error) {
+                            data.shoppingCart.cartItem[0].id = Number(data.shoppingCart.cartItem[0].id);
+                            vm.option.fatherOption = data.shoppingCart.cartItem[0];
+
+                            vm.spinnerBlockSrv.show = false;
+                            let selected: any = _.find(vm.act.cartItem, { 'ospSelected': true });
+
+                            vm.interestedSvas.forEach(interested => {
+                                data.shoppingCart.cartItem.forEach(option => {
+                                    if (selected.idOption === option.id) {
+                                        option.cartItem.forEach(item => {
+                                            if (interested.id === item.id && item.action === 'Discard') {
+                                                interested.show = true;
+                                            }
+                                        });
+                                    }
+                                });
+                            });
+                            vm.setShoppingCart();
+                            /*
+                            let oldSessionStorage = JSON.parse(sessionStorage.getItem("shoppingCart"));
+                            for(let i = 0; i < vm.option.fatherOption.cartItem.length; i++) {
+                                let cartItem = vm.option.fatherOption.cartItem[i];
+                                for(let j = 0; j < oldSessionStorage.cartItem[0].cartItem.length; j++) {
+                                    let oldItem = oldSessionStorage.cartItem[0].cartItem[j];
+                                    if(cartItem.id === oldItem.id) {
+                                        oldItem.action = cartItem.action;
+                                    }
+                                }
+                            }
+                            sessionStorage.setItem("shoppingCart", JSON.stringify(oldSessionStorage));
+                            */
+                            vm.$scope.$emit('newInterested', { sva: vm.interestedSvas, id: selected.idOption });
+                            vm.$scope.$emit('fatherOptionRefresh', vm.option.fatherOption);
+                        }
+                    })
+                .catch(
+                    (error => {
+                        vm.option.fatherOption.cartItem[idx].action = action;
+                        vm.spinnerBlockSrv.show = false;
+                    }));
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:ShoppingCartSvaCtrl#openModalSVA
+         * @methodOf shoppingCartSva.Controllers:ShoppingCartSvaCtrl
+         * @description
+         * Genera modal de ShoppingCartSva
+         */
+        openModalSVA(optionNow) {
+            let vm = this;
+            //let session = JSON.parse(sessionStorage.getItem('shoppingCart'));
+
+            let sessionShopping = JSON.parse(sessionStorage.getItem('shoppingCart'));
+            // let sessionCommercial = JSON.parse(sessionStorage.getItem('commercialData'));
+            let groupAC = {};
+            let idAC;
+            let actoActual = optionNow.id.toString().split('.');
+            let opcion;
+            // commercialActIndex = _.findIndex(vm.sessionCommercialData, { id: commercialActId });
+            for (let i = 0; i < sessionShopping.cartItem.length; i++) {
+                if (actoActual[0] === sessionShopping.cartItem[i].id.toString().split('.')[0]) {
+                    if ( sessionShopping.cartItem[i].ospSelected === true) {
+                        sessionShopping.cartItem[i].ospSelected = false
+                    }
+                    if (optionNow.cartItem[0].id === sessionShopping.cartItem[i].cartItem[0].id) {
+                        sessionShopping.cartItem[i].ospSelected = true;
+                        opcion = sessionShopping.cartItem[i];
+                    }
+                }
+            }
+
+            sessionStorage.setItem('shoppingCart', JSON.stringify( sessionShopping));
+
+            vm.$scope.$emit('changeAddSvas', {
+                'act': actoActual[0],
+                'option': vm.option
+            });
+            vm.showpopupsvas = true;
+
+        }
+
+
+        /*
+        checkCountAC() {
+        let vm = this;
+        
+        let sessionShopping = JSON.parse(sessionStorage.getItem('shoppingCart'));
+        let groupAC = {};
+        
+        if (sessionShopping !== null) {
+        sessionShopping.cartItem.forEach(option => {
+        let idAC = option.id.toString().split('.');
+        let valueId = Number(idAC[0]);
+        
+        if (!groupAC[valueId]) {
+        groupAC[valueId] = [];
+        }
+        groupAC[valueId].push(Number(option.id));
+        });
+        
+        let countAc = [];
+        
+        for (let groupId in groupAC) {
+        countAc.push({ ac: Number(groupId), length: groupAC[groupId].length });
+        }
+        return countAc.length;
+        } else {
+        return 0;
+        }
+        
+        } 
+        
+         */
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#searchSvasInOption
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @param {Object} cartItemSva producto a buscar
+         * @description
+         * Comprueba si el producto es de tipo SVA
+         */
+        searchSvasInOption(cartItemSva) {
+
+            if (cartItemSva.product && _.find(cartItemSva.product.productRelationship, { 'type': 'SVA' }) !== undefined
+                && cartItemSva.action !== 'Discard' && cartItemSva.action !== 'Deleted' && cartItemSva.action !== 'Exclude'
+                && _.find(cartItemSva.product.characteristic, { 'value': 'Descuento Invita y Ahorra' }) === undefined
+                && _.find(cartItemSva.product.characteristic, { 'value': 'Descuento Territorial' }) === undefined) {
+                return true;
+            } else {
+                return false;
+            }
+
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#infoSVA
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @param {number} cartItemSva SVA
+         * @description
+         * Devuelve la direccion de la imagen
+         * @returns {string} dirección para cargar la imagen
+         */
+        getImage(cartItemSva) {
+            let vm = this;
+
+            let img = '';
+
+            if (cartItemSva.product && cartItemSva.product.href && cartItemSva.product.href !== '') {
+                img = cartItemSva.product.href;
+            } else {
+                img = vm.listImage.icon_puzzle;
+            }
+
+            return img;
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#searchValueDutyFree
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @param {Object} cartItemSva SVA a evaluar
+         * @description
+         * Devuelve el valor del campo dutyFreeAmount.value de un SVA
+         * @returns {number} precio del sva
+         */
+        searchValueDutyFree(cartItemSva) {
+            if (cartItemSva.itemPrice && cartItemSva.itemPrice.length > 0) {
+                for (let i = 0; i < cartItemSva.itemPrice.length; i++) {
+                    if (cartItemSva.itemPrice[i].priceAlteration && cartItemSva.itemPrice[i].priceAlteration[i] && cartItemSva.itemPrice[i].priceAlteration[i].price
+                        && cartItemSva.itemPrice[i].priceAlteration[i].price.dutyFreeAmount
+                        && cartItemSva.itemPrice[i].priceAlteration[i].price.dutyFreeAmount.value !== undefined
+                        && cartItemSva.itemPrice[i].priceAlteration[i].price.dutyFreeAmount.value !== null) {
+                        return cartItemSva.itemPrice[i].priceAlteration[i].price.dutyFreeAmount.value;
+                    } else if (cartItemSva.itemPrice[i].price && cartItemSva.itemPrice[i].price.dutyFreeAmount
+                        && cartItemSva.itemPrice[i].price.dutyFreeAmount.value !== undefined
+                        && cartItemSva.itemPrice[i].price.dutyFreeAmount.value !== null) {
+                        return cartItemSva.itemPrice[i].price.dutyFreeAmount.value;
+                    }
+                }
+            }
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#searchValueTaxInclude
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @param {Object} cartItemSva SVA a evaluar
+         * @description
+         * Devuelve el valor del campo taxInclude.value de un SVA
+         * @returns {number} precio del sva
+         */
+        searchValueTaxInclude(cartItemSva) {
+            if (cartItemSva.itemPrice && cartItemSva.itemPrice.length > 0) {
+                for (let i = 0; i < cartItemSva.itemPrice.length; i++) {
+                    if (cartItemSva.itemPrice[i].priceAlteration && cartItemSva.itemPrice[i].priceAlteration[i] && cartItemSva.itemPrice[i].priceAlteration[i].price
+                        && cartItemSva.itemPrice[i].priceAlteration[i].price.taxIncludedAmount
+                        && cartItemSva.itemPrice[i].priceAlteration[i].price.taxIncludedAmount.value !== undefined
+                        && cartItemSva.itemPrice[i].priceAlteration[i].price.taxIncludedAmount.value !== null) {
+                        return cartItemSva.itemPrice[i].priceAlteration[i].price.taxIncludedAmount.value;
+                    } else if (cartItemSva.itemPrice[i].price && cartItemSva.itemPrice[i].price.taxIncludedAmount
+                        && cartItemSva.itemPrice[i].price.taxIncludedAmount.value !== undefined
+                        && cartItemSva.itemPrice[i].price.taxIncludedAmount.value !== null) {
+                        return cartItemSva.itemPrice[i].price.taxIncludedAmount.value;
+                    }
+                }
+            }
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#svasInOption
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @description
+         * Comprueba si hay algún SVA en la opción seleccionada
+         * @returns true hay SVA, false no hay SVA
+         */
+        svasInOption() {
+            let vm = this;
+
+            if (_.find(vm.option.fatherOption.cartItem, (item: any) => {
+                if (item.product && item.product.productRelationship && item.product.productRelationship.length > 0) {
+                    let idx = _.findIndex(item.product.productRelationship, { type: 'SVA' });
+                    return idx !== -1 && item.action !== 'Discard' && item.action !== 'Deleted' && item.action !== 'Exclude';
+                }
+            })) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        /**
+         * @ngdoc method
+         * @name shoppingCartSva.Controllers:shoppingCartSvaCtrl#refreshShoppingCart
+         * @methodOf shoppingCartSva.Controllers:shoppingCartSvaCtrl
+         * @description
+         * Actualiza shoppingCart 
+         */
+        setShoppingCart() {
+            let vm = this;
+            let shoppingCart = JSON.parse(sessionStorage.getItem('shoppingCart'));
+            shoppingCart.cartItem.forEach((cartItem, index) => {
+                if (cartItem.id === vm.option.fatherOption.id) {
+                    shoppingCart.cartItem[index].cartItem = vm.option.fatherOption.cartItem;
+                }
+            });
+            sessionStorage.setItem('shoppingCart', JSON.stringify(shoppingCart));
+        }
+
+        // Comprueba si la tarifa está descatalogada. Y en caso afirmativo, oculta el div del botón "Añadir SVA"
+        hideSVAButton(){
+            let vm = this;
+            let showSVA = true;
+            let tarifa;
+            // let tarifa = _.find(vm.option.fatherOption.cartItem, function(cartItem) { return cartItem.product.name === 'Tarifa descatalogada' });
+            vm.option.fatherOption.cartItem.forEach((rate) => {
+                tarifa = _.find(rate, function(){ return rate.product.name.toLowerCase() === 'tarifa descatalogada'});
+                if (tarifa){
+                    showSVA = false;
+                }
+            }); 
+            return showSVA;
+        }
+    }
+}
