@@ -11,8 +11,6 @@ import { HeroService } from './hero.service';
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
-  heroes1: Hero[] = [];
-  heroes11: Hero[] = [];
   constructor(
     private router: Router,
     private heroService: HeroService) {
