@@ -12,6 +12,7 @@ export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero;
   @Output() close = new EventEmitter();
   error: any;
+  error2: any;
   navigated = false; // true if navigated here
 
   constructor(

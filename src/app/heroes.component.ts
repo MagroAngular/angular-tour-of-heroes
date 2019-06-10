@@ -13,6 +13,7 @@ export class HeroesComponent implements OnInit {
   selectedHero: Hero;
   addingHero = false;
   error: any;
+  error3: any;
   showNgFor = false;
 
   constructor(private router: Router, private heroService: HeroService) {}
@@ -42,6 +43,11 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = null;
   }
 
+  addHero2(): void {
+    this.addingHero = true;
+    this.selectedHero = null;
+  }
+  
   addHero2(): void {
     this.addingHero = true;
     this.selectedHero = null;
