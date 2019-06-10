@@ -25,11 +25,10 @@ export class HeroesComponent implements OnInit {
         heroes => (this.heroes = heroes),
         error => (this.error = error)
       )
-  } 
+  }
 
   addHero(): void {
     this.addingHero = true;
-    let pepe = '';
     this.selectedHero = null;
   }
 
@@ -59,9 +58,9 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = null;
   }
 
-=======
+=========
     
->>>>>>> f22c6d0713ec57248cc77df20a94e78e1f36004b
+>>>>>>>>> Temporary merge branch 2
   close(savedHero: Hero): void {
     this.addingHero = false;
     if (savedHero) {
