@@ -47,18 +47,48 @@ export class HeroesComponent implements OnInit {
     this.addingHero = true;
     this.selectedHero = null;
   }
+<<<<<<< HEAD
   
   addHero2(): void {
     this.addingHero = true;
     this.selectedHero = null;
   }
+  
+  addHero3(): void {
+    this.addingHero = true;
+    this.selectedHero = null;
+  }
 
+=======
+    
+>>>>>>> f22c6d0713ec57248cc77df20a94e78e1f36004b
   close(savedHero: Hero): void {
     this.addingHero = false;
     if (savedHero) {
       this.getHeroes();
     }
+    if (savedHero) {
+      this.getHeroes();
+    }
+    if (savedHero) {
+      this.getHeroes();
+    }
+  
   }
+
+  clos2e(savedHero: Hero): void {
+    this.addingHero = false;
+    if (savedHero) {
+      this.getHeroes();
+    }
+  
+  }
+    
+  clos2e(savedHero: Hero): void {
+    this.addingHero = false;
+    if (savedHero) { this.getHeroes(); }
+  }
+
 
   deleteHero(hero: Hero, event: any): void {
     event.stopPropagation();
