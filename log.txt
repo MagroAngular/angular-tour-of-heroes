@@ -1,0 +1,2310 @@
+commit 9ce348f4ce182047c2cb8293484e8ef443fd2314
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 12:49:15 2019 +0200
+
+    h3ro3s
+
+commit dfc49622d32b98d6b8e7ec2b5aab1c17d3bd7c67
+Merge: 5716263 e896a2d
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 12:32:44 2019 +0200
+
+    Merge branch 'Lunes10'
+
+commit e896a2d05fbef659c198d865bf6196e05df4f619
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 12:31:23 2019 +0200
+
+    eliminar variables
+
+commit 5716263da9d5ef3b58099ca39a7f7c0547d2bbac
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 12:30:26 2019 +0200
+
+    eliminar variables
+
+commit 027a8e6f4cc17cb663858687a4766312f47178b6
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 10:52:27 2019 +0200
+
+    heroes
+
+commit 12d6a393378567cc5e4eea9c52bd5b97e9b448fc
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 10:50:14 2019 +0200
+
+    vm3
+
+commit d0abe5d46f026049bd0d94b27face4edaf883229
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 10:47:47 2019 +0200
+
+    identificador
+
+commit 48d6a4ed5fa915570ded1d7dd63d55f5f6f3f8c3
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 10:35:04 2019 +0200
+
+    He eliminado una variable no usada
+
+commit 2516b9425857dc8c14e5ecf521d8c57685c27dfc
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 10:32:51 2019 +0200
+
+    vm2
+
+commit dd2f2b06a8ef5614707aa886dbf50d21994ca7b4
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 09:24:26 2019 +0200
+
+    vm
+
+commit 54cc71afda7372c630ab11d359a9249b5a9eb62e
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 09:06:33 2019 +0200
+
+    servi
+
+commit d24be6db236eb39bb533106f169a2078cc31ed9f
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 09:04:59 2019 +0200
+
+    html
+
+commit 2e6a168cc2c94291d5f5a1fe7c8c23b5cf68702b
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:23:13 2019 +0200
+
+    gato
+
+commit 7944df79ed9dc7a4963c2f187777265f65948194
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:12:26 2019 +0200
+
+    titulo
+
+commit 729a25a34f795241be079fdb7fb17d82fcd21b14
+Merge: 6c14ebe 0b30a86
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:10:13 2019 +0200
+
+    Merge branch 'original'
+    
+    # Conflicts:
+    #       src/app/heroes.component.ts
+
+commit 6c14ebee9bea78da41f902312d9c29eb150d9045
+Merge: 6c008c6 8e2def6
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:07:44 2019 +0200
+
+    Merge branch 'everiTry'
+
+commit 6c008c68af41f8271ffdc143cb8f8e024602c8dd
+Merge: faedf26 6df3800
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:06:08 2019 +0200
+
+    Merge branch 'everiTry2'
+
+commit faedf260b04c946ecb7e0c99abff8d20e045c29e
+Merge: 53b3a2a e7b7c67
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:02:36 2019 +0200
+
+    Merge branch 'evo-01'
+
+commit 53b3a2a387dc63d74f5aede7c0e941205edeece1
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 08:00:39 2019 +0200
+
+    typescript version menos
+
+commit 0b30a8672773788c8176410611fb3172a133e26f
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Mon Jun 10 07:55:56 2019 +0200
+
+    Comit
+
+commit 8e2def68007f42444eba8b4800d8543979a09a74
+Merge: 0da4ae0 f22c6d0
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:46:38 2019 +0200
+
+    Merge commit 'f22c6d0713ec57248cc77df20a94e78e1f36004b' into everiTry
+    
+    # Conflicts:
+    #       src/app/heroes.component.ts
+
+commit 96a9073c1a97aaefe9da96fb135997ca3dd1d5e0
+Merge: f22c6d0 0da4ae0
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:45:44 2019 +0200
+
+    Merge branch 'everiTry' into original
+    
+    # Conflicts:
+    #       src/app/heroes.component.ts
+
+commit f22c6d0713ec57248cc77df20a94e78e1f36004b
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:44:51 2019 +0200
+
+    sdsd
+
+commit adfdce1a7d0b4225fc4430211591691d25e96711
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:43:56 2019 +0200
+
+    gfgfg
+
+commit e7b7c6786d505ebb68223a0baff15913b924b2a7
+Merge: 68ae115 0bf559a
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:15:53 2019 +0200
+
+    Merge branch 'master' into evo-01
+
+commit 0bf559a0710214af974bc9155dfa534be204b1e4
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:14:20 2019 +0200
+
+    evo 2
+
+commit 68ae115c0e461d2118ef97df6795ce92143757ac
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:13:15 2019 +0200
+
+    evo 1 -> 2
+
+commit 6712eb1cf1057765f75a86530571c6db18ea7851
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:12:38 2019 +0200
+
+    evo 1
+
+commit 0da4ae0c3c637949f8defdc8416194e49664383c
+Merge: bde49d2 ab5f44f
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:11:32 2019 +0200
+
+    Merge branch 'Bronce' into everiTry
+
+commit bde49d280481d460e5b16766ed9ca4fa122a298a
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:10:50 2019 +0200
+
+    gfg
+
+commit df3dde6ed879b4defe92e215ca5de07611be09c8
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 14:08:45 2019 +0200
+
+    Cambio master que no deberia hacerse
+
+commit ab5f44fc6c3627df65ce12b57a280a70274f5aa8
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 13:48:10 2019 +0200
+
+    c3
+
+commit 6df3800f91bea77d7ccef2d5f465944394c07c6f
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 13:43:02 2019 +0200
+
+    c2
+
+commit f55bca33fd799e0c230d4a9e5223a4b0c51ba97e
+Author: amagrpfe <amagrpfe@everis.com>
+Date:   Fri Jun 7 13:14:10 2019 +0200
+
+    prueba1
+
+commit c65967710e8b1b87c0e6a4f19eea2b5f54e7c50e
+Author: John L Papa <john@johnpapa.net>
+Date:   Sat May 5 19:35:34 2018 -0400
+
+    fixed throws
+
+commit 3f6dfbfbee669ba0ceb1d91747fe9a9aca9d15c9
+Author: adsodemelk <nicolas.lopez.carranza@gmail.com>
+Date:   Sat May 5 23:51:45 2018 +0100
+
+    Fix typo and add link. (#138)
+    
+    thanks
+
+commit 52f4c53aab117c17d9c783fe870728cf84f5a87b
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sat May 5 18:51:27 2018 -0400
+
+    updated to us v6 (#142)
+
+commit 8bfac64322b468fe2c263ab681f10730fd21432a
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Mon Jul 10 08:11:56 2017 -0400
+
+    readme (#128)
+    
+    * CLI v 1.2.0
+    
+    * readme
+
+commit b9d201452a42b9fc976953c143b5e34f3cdd3913
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Mon Jul 10 08:09:52 2017 -0400
+
+    CLI v 1.2.0 (#127)
+
+commit 7482e7ab0656d114b419cd3aa08226980d1e3655
+Author: John Papa <john@Johns-MBP.lan>
+Date:   Fri Apr 28 08:46:18 2017 -0400
+
+    zone
+
+commit 444d87840d7b8969f1ce060bdf98408fd1e35cbb
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Tue Apr 25 09:17:24 2017 -0400
+
+    Cli migration (#120)
+    
+    * init non code
+    
+    * everything but e2e fix
+    
+    * e2e oops and zones fix
+    
+    * fix the e2e test to pass
+
+commit 66160f4046e2572091e609a6ccf87a1b72e4c272
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 25 10:14:45 2017 -0400
+
+    !2
+
+commit 82fd104a87e1fa5acfd276456642c60c99645cf9
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 25 10:11:20 2017 -0400
+
+    ./
+
+commit 01d7f9a96f75f9f62f0ca4d9ce358f2f1be49b5f
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 25 10:10:00 2017 -0400
+
+    oops
+
+commit b7b56f85435925c1b0c5561e5dee23321abda60a
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 25 10:08:31 2017 -0400
+
+    removed old file
+
+commit d0de3dab582335327866cea5b42c228769b50a56
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 25 10:07:37 2017 -0400
+
+    v4
+
+commit 3c237dc84ac1e745bcba24a60ce0a93299e59246
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Mon Jan 16 10:23:24 2017 -0500
+
+    Feature/2.4 (#109)
+    
+    * tweaks
+    
+    * ngfor features
+    
+    * removed reflect metadat
+
+commit f4b43514072f2acca328f2f0dfea85f1168fa1a2
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 20 14:55:41 2016 -0500
+
+    2.4
+
+commit 835da56c87c031c16fc02260d65ac28a3218170d
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Dec 14 20:19:17 2016 -0500
+
+    a 2.3
+
+commit fb05687b2c5b0c75d8f7287fdb3328d6260d31bf
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 11 14:55:09 2016 -0500
+
+    errors msgs
+
+commit 379d2d81d2714d4cb275117b200a97124457c74d
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 11 13:35:27 2016 -0500
+
+    works
+
+commit 6974ed9239b0419337039b9e95fe89a290bef9bc
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 11 13:33:59 2016 -0500
+
+    rxjs
+
+commit 03335f21d305157b607f42d218b5cafaaf2b7eb4
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 11 13:31:35 2016 -0500
+
+    rxjs
+
+commit b733523a94f5f11f943ab04e97e91f7495c7c9f8
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 11 13:31:24 2016 -0500
+
+    rxjs
+
+commit d91c8e8a3a884fed395eeb78d7347ea48781c280
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 11 13:20:14 2016 -0500
+
+    fix
+
+commit b24aac77c216b04ceda5babecb56d6bc085a6e0c
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Nov 16 21:19:52 2016 -0500
+
+    2.2.0
+
+commit 35f6796223c158026e793d0a2dda45eebcdf0398
+Author: Scott Escue <scott.escue@southernfiredsoftware.com>
+Date:   Wed Nov 16 13:31:18 2016 -0600
+
+    Removing reference to the 'typings' index file since it's no longer generated.  Also removing empty types array from compiler options so @types will be automatically found. (#97)
+
+commit 326f7c781550391e62f3a74520bb70f60e1a5bbf
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Oct 20 20:42:09 2016 -0400
+
+    new in memory web api thing. also updated @types
+
+commit 7715b7cc29348a0c77169f0e29c09222b38f1673
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Oct 12 21:53:27 2016 -0400
+
+    "@angular/compiler-cli": "~2.1.0",
+
+commit 618f6753aa41c47ee01e88f3ff31fa81351444f8
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Oct 12 19:39:30 2016 -0400
+
+    2.1.0
+
+commit a665ba2fe08eea602b657c7a1296e800a6962c61
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 11 22:01:12 2016 -0400
+
+    space
+
+commit 2dfaca95bfd51f963121fd4f88db1f5fae1ebd6f
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Oct 10 10:22:22 2016 -0400
+
+    typings
+
+commit 3e70f08134722346f5824f3066e3ca5d04cd9e04
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 9 14:21:27 2016 -0400
+
+    fix
+
+commit 6b8df0c7d86d65a256a1612cb5abdafc7553a28a
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 8 22:17:00 2016 -0400
+
+    gulp
+
+commit 7aeaa0fa3e478501521f184f35ca31f8bb167325
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 8 19:41:55 2016 -0400
+
+    readme
+
+commit 63c4cac62d603fd762300fd9945d25d8cc4e0c7a
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 8 19:30:17 2016 -0400
+
+    fix gulp task
+
+commit 7042bd81045a258232d3625cffc7f23b9b30c276
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 8 19:19:21 2016 -0400
+
+    fix for npm run tsc
+
+commit 92b01b2acbc2106ba516727a03347df7a84c852e
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sat Oct 8 18:24:12 2016 -0400
+
+    Feature/aot (#87)
+    
+    * 2.0.2
+    
+    * aot
+    
+    * more aot with gzip
+    
+    * fix
+    
+    * fix
+    
+    * support sourcemaps for js
+    
+    * css for mobile
+    
+    * npm scripts
+
+commit 2082bb34ca81b128a940db712f98db695368f4a5
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 2 15:29:47 2016 -0400
+
+    sigh sigh sigh
+
+commit ceaf19c0d6ea2416eaebdf3dedbce309dcfd5ad4
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 2 15:29:09 2016 -0400
+
+    sigh sigh
+
+commit eee80fa861865e67b3177e59157ad4e33f5cc9bb
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 2 15:28:51 2016 -0400
+
+    sigh
+
+commit de51bf1d1f46d2046be6ca2a94a297993e60d3a5
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 2 15:27:00 2016 -0400
+
+    styling for ToH
+
+commit 283195a295b63361875fb845bff2207b10d74cf1
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 2 15:26:27 2016 -0400
+
+    updated for a 2.0.1
+
+commit 04c575a52f85b3ee464bfad185014facc7751b09
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Wed Sep 14 23:04:41 2016 -0400
+
+    release (#82)
+
+commit 2087d2c8290b24609266064e5b1b952437ae3f6e
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Tue Sep 13 22:13:17 2016 -0400
+
+    rc7 (#81)
+
+commit 6f3bd97b3ede6da883c1db64168348cac6288261
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 1 20:02:35 2016 -0400
+
+    rc6
+
+commit 08337c7975cda057b80f72009fe5277c07368ef6
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sat Aug 20 18:50:55 2016 -0400
+
+    Rc5 (#75)
+    
+    * updated for rc5
+    
+    * no more mocks
+    
+    * readme
+    
+    * tweaks
+    
+    * tweaks
+
+commit 47ea4d6d0d18051d814b196745cf49b89ebfc141
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sat Aug 20 18:28:09 2016 -0400
+
+    Rc5 (#74)
+    
+    * updated for rc5
+    
+    * no more mocks
+    
+    * readme
+
+commit 1d75600d386bf292655b0f7bd98ec3a3e421b7d1
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sat Aug 20 18:25:44 2016 -0400
+
+    Rc5 (#73)
+    
+    * updated for rc5
+    
+    * no more mocks
+
+commit 8e44254deb6aec1eeff6cf71e5ee69da424bf53d
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Apr 24 15:38:42 2016 -0400
+
+    updated for beta 15
+
+commit 262eccac249a716a63bc6c54030716da9f99761d
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Apr 4 11:51:06 2016 -0400
+
+    new lite-server
+
+commit b17b8ea954cedbb200df774a7406705ce8027745
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Apr 4 11:17:47 2016 -0400
+
+    synced for beta 13
+
+commit 2867dfc430ddbdafef94c8a95f50c2b720a48975
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Apr 4 11:16:26 2016 -0400
+
+    updating to sync with docs
+
+commit 31f775e36a333beb6c546076bab7f3dd296fe29a
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Mar 24 07:59:52 2016 -0400
+
+    tslint
+
+commit 1505d9ae26962a59c36303db9803accfe3eeaaf3
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Mar 24 07:59:46 2016 -0400
+
+    beta 12
+
+commit 1ace1778895c7cef6286e4933d2526c71d88ab75
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Mar 22 08:28:32 2016 -0400
+
+    tslint test
+
+commit 319c7a7d3bb5b3e962f5399ee445dff55f36f3d3
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 19 12:57:04 2016 -0400
+
+    typings
+
+commit eaa28a1d9aa1f424bebe36f97f47b2decb278522
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 19 11:04:03 2016 -0400
+
+    concurrently
+
+commit 0f6e0a175365194f43999a13c87f022989e502ff
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 19 10:20:07 2016 -0400
+
+    beta 11
+
+commit ac13703f66e8390816afa52442449df560e3811d
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Mar 19 10:17:51 2016 -0400
+
+    beta 11
+
+commit 114cfa3701a95598e4b524403860ab4ca961d167
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Mar 9 21:55:21 2016 -0500
+
+    updated for beta 9
+
+commit 75ce40a4b4ac4eac462c7a61b24a0ec70c953f95
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Mar 3 07:04:42 2016 -0500
+
+    a2 beta 8
+
+commit 68181139f6504b776fc5f086863e4f4647f55430
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Feb 21 17:02:16 2016 -0500
+
+    "lite-server": "^2.1.0",
+
+commit 7120ffc39e4ce3851ce29fcbbc0ac905f63186e4
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Feb 21 08:13:59 2016 -0500
+
+    beta 7
+
+commit 2c95388aa9946873fdf6ad3bd229d562f2a1f6f5
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Feb 14 09:03:34 2016 -0500
+
+    updaed for beta 6
+
+commit f2695de9568c06fd2e34aaf3823871686dbe4e8a
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Feb 3 15:06:16 2016 -0500
+
+    beta 3
+
+commit 658dc6ddb147df245c4246c92b83e18395b7c613
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Feb 3 15:06:11 2016 -0500
+
+    beta 3
+
+commit cd95a0c150035ab99362360d9c68a3181d5a9bd3
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Feb 1 07:45:46 2016 -0500
+
+    updated for recent changes
+
+commit 7ad12e0852bdce87e91cf20a14dd740a5cac2080
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Feb 1 07:34:49 2016 -0500
+
+    removed bootstrap
+
+commit c34e6211b243003b8d9d48e450d2884d61aa12ca
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Feb 1 07:25:20 2016 -0500
+
+    package json
+
+commit 91c6c39e0611bc3c629c6b9ae53f182e445c0f93
+Merge: faf4957 b8e0a88
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sun Jan 31 11:06:24 2016 -0500
+
+    Merge pull request #53 from cgmartin/lite-server-update
+    
+    Update to new lite-server version
+
+commit b8e0a88225a5510167059ca4c87a769e34045958
+Author: Christopher Martin <cgmartin@gmail.com>
+Date:   Sun Jan 31 11:01:42 2016 -0500
+
+    Update to new lite-server version
+
+commit faf49579a608e519bb07dc05de6067cd5cdad163
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Jan 19 22:16:33 2016 -0500
+
+    pin to beta 0
+
+commit 813499c69a84e5c34b1b04379da06fe2a2e1298c
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Jan 19 22:13:59 2016 -0500
+
+    pin to beta 0
+
+commit e715be498d17e114f6f946dc28f78358404e6e54
+Merge: c551b24 977202c
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sun Jan 17 14:24:01 2016 -0500
+
+    Merge pull request #49 from jodytate/master
+    
+    expand some wording
+
+commit 977202c375a499cd8c90c0f814e61d935b6b82b4
+Author: jody <jtate@uw.edu>
+Date:   Sun Jan 17 11:03:56 2016 -0800
+
+    add a few words to clarify what `npm start` does
+
+commit e38480f29a20adc582f31bbedc5ae774155853c6
+Author: jody <jtate@uw.edu>
+Date:   Sun Jan 17 11:03:12 2016 -0800
+
+    clarify a bit what `npm i` is going to do
+
+commit c551b24061dff0742c943b0810706fc9fce5bcdd
+Author: John Papa <john.l.papa@disney.com>
+Date:   Tue Jan 12 13:43:15 2016 -0500
+
+    pinning to 0.1.2 of reflect metadata due to peer issue between it and angular 2
+
+commit 62785bb6d011d74fd12b9416256874d25cf4af0e
+Merge: b214c68 3cf94f9
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sun Jan 10 19:30:29 2016 -0500
+
+    Merge pull request #46 from aymone/master
+    
+    Update hero.service.ts
+
+commit 3cf94f9c21e199a9d7c47fae8a8e2df81a1d6c78
+Author: Marcelo Aymone <aymone@users.noreply.github.com>
+Date:   Sun Jan 10 22:23:27 2016 -0200
+
+    Update hero.service.ts
+    
+    Indenting code
+
+commit b214c68cbffb78e8aa00b3f8c6bf98ffd3753c47
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 29 20:23:40 2015 -0500
+
+    updated lite server
+
+commit c24ef0027683ff0db4555dde41284f35d616818e
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Dec 28 14:24:25 2015 -0500
+
+    css font color change
+
+commit a8c34bac8d8de44f73e42f315f0274168c855965
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Dec 28 13:55:17 2015 -0500
+
+    updated for fun
+
+commit f9dc7d0347cc91ceb77b197287900d1d348432f1
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Dec 28 11:18:17 2015 -0500
+
+    updated for recent json changes
+
+commit 84e81f6da94d6bc58280f840975787e241ec6b11
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Dec 23 00:49:33 2015 -0500
+
+    new css
+
+commit 0da8ed7bcc46f76e1226f918c736c0da2df9a39c
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Dec 17 00:03:38 2015 -0500
+
+    slice fix
+    
+    HeroService moved to AppComponent as a provider
+
+commit a6b4fd1a664fcbfbb53daa8de0ca12e60dba3d05
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Dec 16 15:04:24 2015 -0500
+
+    revised toh
+
+commit e621175f5b7d946bd5d90b9a1949d4c1331934ee
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 15 21:11:13 2015 -0500
+
+    npm run go
+
+commit bc5ee46077fc64351d979e276ad6bc40c4638866
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 15 21:01:26 2015 -0500
+
+    fixed for beta 0
+
+commit 34e4d55f88e2b0941b84e853e2db732265572664
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 15 14:44:56 2015 -0500
+
+    updated for beta 0
+
+commit 969ad4fe326d5d8d8f5681f66fc8af4e99d46716
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Dec 13 10:15:57 2015 -0500
+
+    put inline css and html back in for app component
+
+commit c53ddec02ccd7eef65a9c7f15c82cdbf0c62836b
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Dec 10 11:41:44 2015 -0500
+
+    updated package.json to host live and lite servers for now
+
+commit b2f425022c39722bf2ca4bce7c7c13654bfe8a3c
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Dec 10 11:12:13 2015 -0500
+
+    fixed gitignore
+
+commit 93b65e7e5f8a04f3ebf70935111375aae5596889
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Dec 10 11:11:54 2015 -0500
+
+    removed files
+
+commit 6c7538402379e966e18666ebfecac018ac804be6
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Dec 10 11:08:13 2015 -0500
+
+    fixed readme
+
+commit 301203bd8226b1a6e0b8f49a583531978e70d856
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Dec 10 10:00:16 2015 -0500
+
+    added concurrently and 1 command to run them all, and in the darkness bind them
+
+commit c4d58b7bcafed9135c92e3636923c55b265bdb4a
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Dec 10 09:56:37 2015 -0500
+
+    updated to a.52
+    
+    moved src to root. no more src. now just ./app
+    
+    removed ke-bab and now have camelCase directives
+    
+    updated package.json paths for scripts
+    
+    updated tsconfig.json to exclude node_modules and added module resolution = node and module = systems
+    
+    updated base ref to /
+    
+    updated script references in index.html to node_modules path
+
+commit af3eed120f59a08fe91b884e8835ef83d48708bc
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 8 21:43:22 2015 -0500
+
+    separated styles and templates to their own files.
+    
+    added useAsDefaultRoute for dashboard route
+
+commit 82acdf87bbf0c8a771c32a2419281f62be0a6894
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Dec 8 21:32:48 2015 -0500
+
+    updated for a.49 and the revised import paths.
+    
+    removed unused provider form boot.ts
+
+commit 655a356803cbbe901dd886a19b53a2160128a587
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Dec 7 08:22:53 2015 -0500
+
+    refactored the routes array out. makes me sad ... now we have magic strings in lots of places and have to remember the uppercase naming
+
+commit dfcfb32647255536c9b2028d0fddf1a181ecfe16
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Dec 7 08:22:19 2015 -0500
+
+    now on a.48
+
+commit 38a8e6893e5ed5259939b3f57319f47a516d652e
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Dec 2 11:21:03 2015 -0500
+
+    removed unused import
+
+commit 8a70ad4463c2d866d32bc53d793e9bc488c63fe6
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Dec 2 10:03:20 2015 -0500
+
+    redirectTo is now DSL format. Requires the name of the route.
+
+commit 55ac6460eb5bb9b09aa41dd228760f4cfb088ebe
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Dec 2 09:53:31 2015 -0500
+
+    redirectto is now an any[]
+
+commit 22a29687bfe84f7084a6bb02c9019675ee40143e
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Dec 2 09:53:20 2015 -0500
+
+    oninit changes
+
+commit badd968de050d2d94adecaa75d59d5c6ab873156
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Dec 2 09:53:08 2015 -0500
+
+    latest versions and alpha 47
+
+commit 7f4ccfb153706d550823a9a9b2f05baafdb5e344
+Merge: 71418e4 80bb688
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Thu Nov 19 13:18:37 2015 -0500
+
+    Merge pull request #35 from MLoureiro/heroes-component-cs-fix
+    
+    Fix CS spaces
+
+commit 80bb688e104deb97fe45035f31866b8cebbccd19
+Author: Marcos Loureiro <mloureiro.dev@gmail.com>
+Date:   Thu Nov 19 17:48:27 2015 +0000
+
+    Fix CS spaces
+
+commit 71418e48f95661d6d6114394676366ea4fc75274
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Nov 18 07:34:07 2015 -0500
+
+    renamed route.config.ts to routes.ts
+
+commit 89b69cecb1eb1d8f06f1228da01ff5739ab42ab8
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Nov 18 07:33:55 2015 -0500
+
+    upped lite-server
+
+commit dd531b1d9a2d9a6ba51744f8dba18e56feef7eaf
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 18:31:55 2015 -0500
+
+    cleaned the service to be more compact
+
+commit 853786fe73bf6291df883e68691f76e3d0301122
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 18:28:31 2015 -0500
+
+    switched to lite-server
+
+commit 1f397a216dc24c5604be64c859800a869b407caf
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 18:27:42 2015 -0500
+
+    added redirectTo
+
+commit 830d7312f39500b79b77a0a26c0b3ac846a74923
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 18:27:34 2015 -0500
+
+    cleaned out routing stuff we dont need
+
+commit bccf580d2ff84214286f33547ffecb6346e45b27
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 18:27:09 2015 -0500
+
+    added lite-server
+
+commit 843c892fc9ebf43bd4319963c353823c95b20074
+Merge: 1f287f5 d1ef300
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Tue Nov 17 17:31:38 2015 -0500
+
+    Merge pull request #34 from johnpapa/routing-path
+    
+    fixed the goback button to use history
+
+commit d1ef300ffa347906584433a6ed3473e3b72fe65b
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 17:31:03 2015 -0500
+
+    fixed the goback button to use history
+
+commit 1f287f5f47602596dee000dced13c14f85f1c566
+Merge: c7b1677 d1cdd0f
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Tue Nov 17 09:00:57 2015 -0500
+
+    Merge pull request #32 from johnpapa/routing-mayhem
+    
+    Routing mayhem
+
+commit d1cdd0f618252433f8ac752265c0ed7b30fe3abd
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 08:47:28 2015 -0500
+
+    reducing css unused
+
+commit 0471df8a93ad48de35cd2fb36dea88fdab4464ec
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:36:01 2015 -0500
+
+    removed all traces of FORM_DIRECTIVES and CORE_DIRECTIVES. they are loaded magically for us!
+
+commit a536b6fbf624850d1dca4435d14b4f1fbe5b53e8
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:25:11 2015 -0500
+
+    merged getHeroes into onInit
+
+commit f03f7ee59bb4ad1dbc059f915183a5da7ec3cf20
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:19:24 2015 -0500
+
+    moved to hash strategy. html5 mode (path) is not working right for me right now
+
+commit 733ef2b9c9d31174f099947b9be731ae03d92352
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:14:21 2015 -0500
+
+    redirectTo is not working. so we deal with slash for now
+
+commit f9c6f9c6ebcf7ec0bd8975fc53ae10b53b891530
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:14:07 2015 -0500
+
+    removed unecessary type
+
+commit 5dff92e8dd6365a744a3c6f170c7a871d08f8d7a
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:14:00 2015 -0500
+
+    removed unecessary type.
+    added injectable to all services
+
+commit 76ace4dafff924e69dc3063fc55747ebf138917f
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:13:41 2015 -0500
+
+    removed unecessary type
+
+commit 1511987d25fb0180a1dcbfe3d65b409bf8999c85
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:13:10 2015 -0500
+
+    removed bootstrap file
+
+commit 4e3ec0039731fa3f8e872cf959e21c2e19fa491b
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:13:03 2015 -0500
+
+    remove provide, for now
+
+commit dd71da7c87d2b4e747b0a9b436d2ee8f480befea
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:12:52 2015 -0500
+
+    fixed routing classes to be easier
+
+commit e077db1d1fd614f37b4a188dd9b976fff526b850
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:12:38 2015 -0500
+
+    ts settings i like
+
+commit 2e6a46fea56c19e555336a59079de5816de6d8aa
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Nov 17 00:12:27 2015 -0500
+
+    renamed bootstrap to boot
+
+commit 403a64946aef86b77f873d249aaf2450d6208e3c
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Nov 16 22:55:18 2015 -0500
+
+    trying new routing
+
+commit c7b16779cfbec06cc734c09b8ae9ae33aa0e8993
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Nov 7 20:15:31 2015 -0500
+
+    removed unused function
+
+commit 46b02fbd660674e9ce6246e5f32d0eee7de79d98
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Nov 7 20:14:18 2015 -0500
+
+    route revisions. now using the angualr 2 route class
+
+commit f886a0abb77221a3f8b247061d8e7d1873791376
+Merge: 4b41848 7252b29
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Sat Nov 7 20:10:16 2015 -0500
+
+    Merge pull request #29 from wardbell/ward-re-router
+    
+    Ward revised router config
+
+commit 7252b299444ac5df6898bdd71160a3684ca29a16
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Fri Nov 6 22:45:44 2015 -0800
+
+    2nd version
+
+commit d5489c2e0448f8506fc7f471b652ebbade561a11
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Fri Nov 6 19:01:41 2015 -0800
+
+    Some suggestions about routing and [class.select]
+
+commit 4b41848f41f709d561ef5deb96bfd512b6db86ca
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Nov 1 11:02:20 2015 -0500
+
+    readme updated for es6shim
+
+commit 5f117006b2f4a9e1038944084bd48b53590d1dc9
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Nov 1 11:00:46 2015 -0500
+
+    removed extra closing tag
+
+commit f4a713c715dd90d8bc76539027fbc9baedcd1546
+Merge: 35057de 1c24fc0
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Nov 1 07:49:22 2015 -0500
+
+    merge
+
+commit 35057de31cff53402b3ed23dcba66d948652483c
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Nov 1 07:48:14 2015 -0500
+
+    alpha 45 and sysjs 0.19.5
+
+commit 1c24fc0015436e7f3a4167b1a8c9426d7833fb81
+Author: John Papa <john.l.papa@disney.com>
+Date:   Fri Oct 30 14:19:14 2015 -0400
+
+    upped to alpha 45
+
+commit 7a04c1a9474e0c78b69c84ffb705303186c932a8
+Merge: afa96e4 c1d72b5
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 24 16:32:37 2015 -0700
+
+    Merge branch 'master' of github.com:johnpapa/angular2-tour-of-heroes
+
+commit afa96e49c1f57c6a16747229ea3af1553693ef20
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 24 16:32:27 2015 -0700
+
+    go to 44 and stay there
+
+commit c1d72b58be18011cb22209bb9bcd70a51fa4bebd
+Author: John Papa <john.l.papa@disney.com>
+Date:   Thu Oct 22 14:08:59 2015 -0400
+
+    alpha 44
+
+commit 4006b0801cd582c46cbdfb7a393cbfb2180cbe29
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 20 00:45:55 2015 -0400
+
+    removed captions
+
+commit 52a6d61064c862e6fe6592671e26cc291d5885a1
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 20 00:24:23 2015 -0400
+
+    oops
+
+commit 1457ded900ba6385b850a45849da7f96c669c368
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Oct 19 01:07:48 2015 -0400
+
+    fixed for ToH
+
+commit a1c5dc454c7f4d6d8d177a51c431e9a8ab652733
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 18 23:37:09 2015 -0400
+
+    made routes easier to expand
+
+commit fe3cef26c99855820b61629b2b7f6c824cee6370
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Oct 15 22:32:09 2015 -0400
+
+    fixing minor grammar
+
+commit 23f9388eedbfcc48fef735131a39f001432745d7
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Oct 14 23:56:51 2015 -0400
+
+    oops
+
+commit 2b662914fc89cd282ebf3be192b4f6dacd4ad5de
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Oct 14 14:06:24 2015 -0400
+
+    removed View
+
+commit f2c611e73d0347c4193189e1d9f110a52f081c65
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Oct 14 13:44:04 2015 -0400
+
+    cleaning up routes
+
+commit 1c5977e92b8cdb87fd5b3531e8500cc3178eace7
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Oct 14 08:14:12 2015 -0400
+
+    alpha 42
+
+commit 39a603c85de859e2803095bffbe537d5612eb9f6
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 13 22:27:31 2015 -0400
+
+    dont show the hero til its here
+
+commit 346cf248237ebba284a0772977f9df322f3762f6
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 13 22:27:21 2015 -0400
+
+    ROUTER BINDINGS are back
+
+commit 8996976229f01c0a5ffbd095d371cb8307683f9c
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 13 22:26:40 2015 -0400
+
+    alpha 42 no longer needs the tsd work we did. it gets the typings via how TS looks in the package.json of ng2 for where they are
+
+commit 097ef3fc7b78b29e73885aff19514459ace7943f
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 13 16:50:04 2015 -0400
+
+    added explicit types
+
+commit 5875bd9ea1f6213f5e729bc0192e6a84b69bf695
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 10 15:05:27 2015 -0400
+
+    tweak
+
+commit e9641d6c341cc1120f84f80f8c7e59675001a9a3
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 10 13:53:09 2015 -0400
+
+    whitespace
+
+commit 3c0e94abaeb92e5ed37ca86e39282dc544c389ca
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 10 12:22:04 2015 -0400
+
+    4 slice
+
+commit c0d70d7e4e9b54906784ca9bf902b0a0d2a645e8
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 10 11:16:28 2015 -0400
+
+    upped to alpha 40
+
+commit a76bd3dfea7c733a3cb4679d3af5869c83cb6427
+Merge: 3b46432 039af0f
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Oct 9 22:18:46 2015 -0400
+
+    Merge branch 'master' of github.com:johnpapa/angular2-tour-of-heroes
+
+commit 3b4643243f28325ba1172b2f66bfd244b5e371ec
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Oct 8 23:39:36 2015 -0400
+
+    hero-detail now can be bound or routed to
+
+commit 039af0f97be054979668177168142ddea9aa15c4
+Merge: fc77327 826cfbb
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Oct 7 16:09:43 2015 -0400
+
+    Merge branch 'master' of github.com:johnpapa/angular2-tour-of-heroes
+
+commit fc773278da1581563531aa87c00e64fcd77b1d0e
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Oct 7 16:09:22 2015 -0400
+
+    made routes cleaner?
+
+commit 826cfbb6443c1d2bd9d9fb3344874b26c62839b9
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Oct 6 18:19:22 2015 -0400
+
+    39
+
+commit eac8a888fdcd083fde35830ce48206afe1a033a8
+Author: John Papa <john.l.papa@disney.com>
+Date:   Mon Oct 5 15:53:01 2015 -0400
+
+    added styles for normal links, univisited too. and hover.
+
+commit e4ca51c8d6199889d222d8308283860b82562b85
+Author: John Papa <john.l.papa@disney.com>
+Date:   Mon Oct 5 15:30:00 2015 -0400
+
+    fixed top heroes to show 8
+
+commit 0ce5e504b80198275df895f19f139376101bb93b
+Author: John Papa <john.l.papa@disney.com>
+Date:   Mon Oct 5 14:55:42 2015 -0400
+
+    made router actiev link simpler
+
+commit 36121e08fe8e284de2c7b0901e86e2b7a49f0c0c
+Author: John Papa <john.l.papa@disney.com>
+Date:   Mon Oct 5 14:41:59 2015 -0400
+
+    added route class
+
+commit 794c1f41b258f5bfcdc22d1401f236741fbd7a81
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 23:05:55 2015 -0400
+
+    whitepsace
+
+commit 187de940fb5a6b6919453d2c3fad0c57a703c230
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 22:17:13 2015 -0400
+
+    whitespace
+
+commit c9c3ae8f58bca4a9b0bd18b113adec8e68c686c6
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 22:16:43 2015 -0400
+
+    tweaks
+
+commit 388339088de592a25cb0876169bc265c1b1424c2
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 21:55:12 2015 -0400
+
+    css cleaning
+
+commit 03d6fd860194a91c42249cf1bbf59a8d6e3202d9
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 20:53:20 2015 -0400
+
+    whitespace
+
+commit c90cc30499220e460c5fc7e179476d1831a2bc1c
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 20:24:16 2015 -0400
+
+    whitespace
+
+commit e0db81e226c5b8779ea6230e7c1b082cf8b01ba7
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 20:22:44 2015 -0400
+
+    removing css
+
+commit 731fb8eb23f7b659e85945cd79bab6ebe17a38e9
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 16:59:24 2015 -0400
+
+    removed villains
+
+commit 48737c9b52d747c23e2f110cc2cba4d0b3412553
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 16:56:38 2015 -0400
+
+    added routing to the details
+
+commit 5ee1d1835e15f73c688c53765ef44dd21ebca8db
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Oct 4 16:32:25 2015 -0400
+
+    added villains and styles for dashboard
+
+commit 9f64833b202749966b409747849039155a7516e7
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 3 23:01:51 2015 -0400
+
+    removed globals
+
+commit 01f9c0643a6eb614abe0130a0423a76c7b736b0d
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 3 23:00:04 2015 -0400
+
+    moved systemjs stuff to head
+
+commit 1b4ac1dc7742cabdaf75c2ca6d92420ff2a522d6
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 3 16:05:12 2015 -0400
+
+    removed traceur
+
+commit aab8607dfdb6e6aaef482101cf76bfde996fb122
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Oct 3 08:48:55 2015 -0400
+
+    routing witout dots works.
+
+commit 63aaa2a771aefa9937fcafab51f181b2202268bc
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Oct 2 23:24:36 2015 -0400
+
+    refactored for alpha 38.
+    
+    Router names must use TitleCase
+    
+    navigateByUrl accepts a string
+    
+    navigate() is not working yet
+    
+    router boostrapping changed.
+
+commit ba25caa17e1d97ac37fc16d7a3a4bc4a0d9b055c
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Oct 2 07:54:05 2015 -0400
+
+    selected hero
+
+commit cc87ccdc3c54cd17a58c98ed5856e3a18771f6f5
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Oct 1 21:02:29 2015 -0400
+
+    removed constants.ts.
+    
+    CORE_DIRECTIVES.ts made this super simple.
+
+commit ba93e613bc25c44d0417c648fcff75201a35a86f
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 29 22:37:00 2015 -0400
+
+    trimming
+
+commit 1c635af3dc7b7134a1e92b8803fabbc5de209e50
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 29 22:36:43 2015 -0400
+
+    removed img
+
+commit 27e9894911de942f2479ecf414bac0f842458096
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 27 22:37:07 2015 -0400
+
+    Implemented OnInit to get the heroes list instead of a bound property
+
+commit ae02b76166f63b3dfc0114e9d55ce0f1ce0c6fdd
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 27 22:31:27 2015 -0400
+
+    renamed hero dirs to common dirs
+
+commit 648d857930c0835afcf9d1bfc68f873a53f4b167
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 26 21:47:20 2015 -0400
+
+    added title for the app and revised title for dashboard
+
+commit a79ca2bb13a3580a4154d879234d886ed53d11df
+Author: John Papa <john.l.papa@disney.com>
+Date:   Fri Sep 25 17:51:17 2015 -0400
+
+    changed interface to class. dont matter but may be easier
+
+commit 1f8a321e48bdcfb6b7c89a39efd0fa2aeb3f5408
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 24 18:30:52 2015 -0400
+
+    cleaning house
+
+commit ef00d5ca856a6ed625b7d796217db9c3536c6270
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 24 11:10:12 2015 -0400
+
+    no need for tsd reinstall here
+
+commit e87e161e458b0c27aa7cdeae3e88393c9d3ea07c
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 23 07:41:10 2015 -0400
+
+    systemjs 0.19.2 fixes a bugin 0.19.1
+
+commit ea434b55c4c23177e970f052734ce395185d58df
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 23 02:04:14 2015 -0400
+
+    use 0.19.0 as 0.19.1 breaks our config
+
+commit f5ece50cde1cee57105c00a8d59ea87488836e38
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 23 00:52:58 2015 -0400
+
+    upped sysjs ver
+
+commit 84b2cc5042d55af77557ee73118964d61b34cbd8
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 23 00:52:47 2015 -0400
+
+    fixed template
+
+commit 5ff11c165e249ac0d3678c7c6081c8cae8c034d1
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 22 23:18:47 2015 -0400
+
+    formatting
+
+commit 5b747f747da5d5f3050791b552e15ce8bd3e902e
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 22 23:16:32 2015 -0400
+
+    removed vscode
+
+commit 636e61a20557192e8a847f66dbf2c4bbe3dfdf0b
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 22 22:03:46 2015 -0400
+
+    refactored getting the heroes to be cleaner
+
+commit 62fc59a2352ee320ea352c3adec92bce1e2e0f9f
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 22 21:57:26 2015 -0400
+
+    added uppercase pipe
+
+commit c9d496f286316c664c9663dc05ad0a9a3cbb2d6c
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 22 21:57:14 2015 -0400
+
+    renamed constants
+
+commit fa73b075e2f9bc337d3dde869efc8799bd65f783
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 21 22:21:17 2015 -0400
+
+    fixes for readme
+
+commit df178ac5c91c6a57606c1cac81398cae6f6de90a
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 21 22:18:54 2015 -0400
+
+    tsd
+
+commit 7b805e22e4163ba6c6531d6617663e44e6abf0b2
+Merge: 8eb0b28 7c6c9e4
+Author: John Papa <johnpapa@users.noreply.github.com>
+Date:   Mon Sep 21 21:12:40 2015 -0400
+
+    Merge pull request #21 from antonybudianto7/patch-1
+    
+    Little typo
+
+commit 8eb0b2849a6aab51b4405c69c58673e851f20a9d
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 21 21:04:19 2015 -0400
+
+    ignore more
+
+commit 889c954c8138081f2061cacf583b0ee86f633db1
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 21 21:03:48 2015 -0400
+
+    fixed tsd
+
+commit 7c6c9e49dbbefa2d958ce77f34adb71d598a329e
+Author: Antony Budianto <antony.budianto@gdplabs.id>
+Date:   Mon Sep 21 12:23:42 2015 +0700
+
+    Little typo
+
+commit e91a3fa4b605acb8ae3d20f26737886e6321590a
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 20 21:21:45 2015 -0400
+
+    Updated to use SystemJS 0.19.0, fixed typings to use the one Angular gives us. The one in def typed was giving TS errors. Pushed typings up
+
+commit 055f2ef8e82d5659f3cef3118d9d1eee7e0a644c
+Merge: 29485b3 64b4010
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 15 00:25:41 2015 -0400
+
+    Merge branch 'master' of github.com:johnpapa/angular2-tour-of-heroes
+
+commit 29485b3f4f39df179e4cf33e0b3bc42bc9a73ded
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 15 00:25:22 2015 -0400
+
+    base
+
+commit 64b4010a81b8e08e522bb2b74dfc1d34a906d756
+Author: John Papa <john.l.papa@disney.com>
+Date:   Mon Sep 14 09:40:26 2015 -0400
+
+    added more steps to get code
+
+commit f9818964999a6c02e1d01afd1ee5d5acaa7e6451
+Author: John Papa <john.l.papa@disney.com>
+Date:   Mon Sep 14 09:25:09 2015 -0400
+
+    cleaned readme
+
+commit 4af85b7e5605a79a98bfd76aa5bd763235bbcdb3
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 13 14:29:32 2015 -0400
+
+    added back button
+
+commit 94123f0573a17383116bfec7106e06d1e22e9524
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 13 10:12:08 2015 -0400
+
+    renamed app
+
+commit 864ce0958aeec4e82b7458a3255bd36afdf94d73
+Merge: f07070a 4be7524
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 12 00:08:25 2015 -0400
+
+    Merge pull request #20 from johnpapa/alpha37
+    
+    Alpha37
+
+commit 4be75240be44cdb3cfb84e696eeadb034bdb0369
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 12 00:07:57 2015 -0400
+
+    added dashboard image
+
+commit c721a308c0bd047b329612acc3961c4db8f489f2
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 23:55:59 2015 -0400
+
+    notes
+
+commit 86900243355b750e7ea9c37636499ee380a230b1
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 23:54:42 2015 -0400
+
+    alpha 37 updated
+
+commit 3440aa2158c4c849bfecd8f805fcc695baf104f3
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 23:54:38 2015 -0400
+
+    readme updates
+
+commit f07070a87616a90d3a5f577bebbae87e089a71cc
+Merge: 8044ddc 65a227a
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 23:28:56 2015 -0400
+
+    Merge pull request #19 from johnpapa/tweaks
+    
+    Tweaks
+
+commit 65a227adfe6391b646c99f9b30bfe63a714fadb1
+Merge: d02d011 8044ddc
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 23:27:07 2015 -0400
+
+    Merge branch 'master' of github.com:johnpapa/angular2in22-docs into tweaks
+
+commit d02d011053727c125c846b81882e1cda2efe61d2
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 23:26:55 2015 -0400
+
+    added error catcher in index
+
+commit 8044ddceff142d5f4ae02f597e0c5b19fbc4bf11
+Author: John Papa <john.l.papa@disney.com>
+Date:   Fri Sep 11 16:40:43 2015 -0400
+
+    routes after talking to ward
+
+commit 33d583f8fb1398a177070fa2aa2c034f8935225b
+Author: John Papa <john.l.papa@disney.com>
+Date:   Fri Sep 11 16:36:07 2015 -0400
+
+    use exact versions for now
+
+commit bababe7101b779656abec2765d3a234f5b2253ed
+Author: John Papa <john.l.papa@disney.com>
+Date:   Fri Sep 11 16:34:24 2015 -0400
+
+    added notes for readme. to protect me
+
+commit 0e63cdb6b1866b2422928402e27a373e7da04794
+Merge: a23f008 777da98
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 09:12:18 2015 -0400
+
+    Merge pull request #18 from johnpapa/tweaks
+    
+    renamed about to dashboard.
+
+commit 777da987eb47d76d6625e263145d0a8420c9e6c0
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 11 09:11:57 2015 -0400
+
+    renamed about to dashboard.
+    
+    dashboard is now the / route (default when app loads).
+    
+    renamed `config` to `route-config` and made the latter contain a mapped set of proeprties for `@RouteConfig` which makes it less noisy in `AppComponent` to load them
+
+commit a23f008b90919720fe4223f7c510cd806dc4597e
+Merge: e74c0d5 4021063
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 10 23:34:42 2015 -0400
+
+    Merge pull request #17 from johnpapa/tweaks
+    
+    Tweaks
+
+commit 4021063fcb6f16153b7332da27afb69d4f785687
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 10 23:34:14 2015 -0400
+
+    minor renaming
+
+commit 8bb19e3465cc8f92c6142a998ce23f427c10d971
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 10 23:10:11 2015 -0400
+
+    renamed shell to app
+
+commit e74c0d5fb93a2753305c5d810a1eed3dc92e05f2
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 23:26:00 2015 -0400
+
+    updated typings setup
+
+commit cc1178418fffdf0f90a542a073e4aefa7fbb1472
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 23:00:13 2015 -0400
+
+    added hero directives so we can more easily import directives. this is only good if it doesnt add overhead when we dont use em all
+
+commit 6c26775822b38ef75729f930c49e8ef538d65764
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 22:29:34 2015 -0400
+
+    renamed hero mock
+
+commit 8eb48ed2a5f90c91325ebd34bf10566dd62da7d9
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 22:29:25 2015 -0400
+
+    renamed heroes mock
+
+commit ad89e516f66dd2473b440f7eb8bb36aea8127e82
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 19:56:40 2015 -0400
+
+    removed hash strategy in favor of path strategy. its html5, so lets do that.
+
+commit 66e7f0591789c9960c57c784b98863323a094c0e
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 19:55:47 2015 -0400
+
+    making it cleaner looking
+
+commit f7c3fc01ba8e0eb818221f90f8989baee7e24eda
+Author: John Papa <john.l.papa@disney.com>
+Date:   Tue Sep 8 16:19:55 2015 -0400
+
+    removed bad code
+
+commit 1f43ccaad1d0eedef4009b97adb42e0d39ffdd92
+Author: John Papa <john.l.papa@disney.com>
+Date:   Tue Sep 8 16:19:46 2015 -0400
+
+    whitespace
+
+commit a94efe10bbcd63a640bdc769b8e30834d073fd7b
+Author: John Papa <john.l.papa@disney.com>
+Date:   Tue Sep 8 09:42:31 2015 -0400
+
+    added / route for now. prefer otherwise tho
+
+commit 8aac3de5a63f73e1328768fc040d67a96d9d221e
+Merge: d05e87a 28348cf
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 01:25:12 2015 -0400
+
+    Merge pull request #16 from johnpapa/tinker
+    
+    Tinker
+
+commit 28348cfb192cf62060c788f1048149cf263973de
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 01:17:03 2015 -0400
+
+    we need an otherwise
+
+commit bb528f0b96073630926a01502ed66fd3b53ffeff
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 01:16:57 2015 -0400
+
+    simplified
+
+commit 704ab37ed2bacfa826863111aa12389f9843c523
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 01:07:17 2015 -0400
+
+    removed style cuz its now in global style sheet
+
+commit 0c05e6ffb67c53fa25410274ce651f3c61cfeb68
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 01:07:03 2015 -0400
+
+    made shorter code
+
+commit 9a15c0f6c97ee3da4fd3add50ab9dbd192257404
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 01:04:24 2015 -0400
+
+    removing code
+
+commit de7f181f839e25e7dfed2f2cc714a80f8c2bfa18
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:51:46 2015 -0400
+
+    removed dead code
+
+commit 2a1bb7a4592e1a458d035041d476f1f8b70f879f
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:44:08 2015 -0400
+
+    removed unused code from heroes component
+
+commit c9c855dcd79c511636497471f7c4acd1c33cc2ae
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:43:59 2015 -0400
+
+    changed a to a button
+
+commit a9069b8e74c92ae2483dcd2144b3376c8c69f2f7
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:43:40 2015 -0400
+
+    removed global styles from component
+
+commit 9b1017f75617db3e6203f2eb4f32a6264a8b04f0
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:43:31 2015 -0400
+
+    simplified getting 1 hero
+
+commit e85aaeb750708707845881157e7e31a134056256
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:43:13 2015 -0400
+
+    Moved global styles to styles.css
+
+commit 606daeb7b29a1e1e815503c36961ee88c2ecd8f5
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:17:21 2015 -0400
+
+    Made hero details not be a sub component of heroes. Now we route to the details.
+
+commit 47a5c027528eaae963a8f0b08cda7572a1f93705
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:11:37 2015 -0400
+
+    whitespace
+
+commit 376ef10f35bb35bf07be50f32609d657ff80ca2a
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 8 00:10:43 2015 -0400
+
+    route params are now happier
+
+commit 397062d7be709bc33a05aea18da9248e60f20505
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 23:58:27 2015 -0400
+
+    router details and links work. added about component. had a migraine
+
+commit e8d8fcc8d4521c538608ed33ee7201d84a628742
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 23:04:17 2015 -0400
+
+    routes are moving with params. only hash works right now
+
+commit b22f90262572713171a93ef41b16f27274d2be47
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 22:05:57 2015 -0400
+
+    route param - no worky yet
+
+commit 5a0c4a2b089b621cec0041991ca411e16d910c88
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 21:51:20 2015 -0400
+
+    added router links
+
+commit 73ba68cd3358421882f5bd107627bba76cba9d48
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 21:32:30 2015 -0400
+
+    whitespace
+
+commit 8eb8a293209dded6db3a545bf68af9f295544c13
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 21:31:40 2015 -0400
+
+    whitespace
+
+commit b93fe90a380e1783f93972c02c3ac7d690e313bd
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 21:31:08 2015 -0400
+
+    routing code ... initial pass
+
+commit d05e87ae7fa257c10621473898c54678a7defb66
+Merge: 5a10411 49c38e9
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 21:20:06 2015 -0400
+
+    Merge pull request #15 from johnpapa/class
+    
+    Class
+
+commit 49c38e94faf748777d6c20b8659b049d4f694c9a
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 21:19:42 2015 -0400
+
+    moved stuff, thats all
+
+commit 01d687a25fefcebc19a0e1c5f2c732618a2fd005
+Author: John Papa <john@johnpapa.net>
+Date:   Mon Sep 7 19:48:08 2015 -0400
+
+    Revised ng-class
+
+commit 5a104116e2a9799e2811fc29831eed04323b8bfc
+Merge: d1a52c6 2d241cb
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 6 09:51:00 2015 -0400
+
+    Merge pull request #14 from johnpapa/tinker
+    
+    style and selection Tinkering
+
+commit 2d241cb6cd5a4983752a5b8a11ae6ace487c6021
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 6 09:50:30 2015 -0400
+
+    added selected-item style
+
+commit b08ca55f6f49fc706a005344efd7dfcd7b55c705
+Author: John Papa <john@johnpapa.net>
+Date:   Sun Sep 6 09:34:03 2015 -0400
+
+    dont set the current hero on retrieval. make it explicit
+
+commit d1a52c6dcc24f4bbfeee17dcdeb760fb2508e7c8
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 15:28:25 2015 -0400
+
+    removed power and alterEgo
+
+commit a953ace921d9c880207a809b97df14649943119d
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 15:25:39 2015 -0400
+
+    whitespace
+
+commit ebe47b0cb02b5d03dcd09de17cab7d0e10302785
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 15:25:14 2015 -0400
+
+    removed css
+
+commit 3c31364de87d58eb9ee2399ffd40a11eef0ee6d9
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 15:18:27 2015 -0400
+
+    needed left pos for animation to work
+
+commit e7780831aa6552f924718cf1ceb65593359cf1c6
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 15:13:46 2015 -0400
+
+    reduced CSS
+
+commit 8898a1cb6e3dfd22b094db43f5684c7db9b33807
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 15:00:10 2015 -0400
+
+    CSS tidying up
+
+commit d87925c355fdd615f21b27475ad7c0c7795a32e9
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 11:39:28 2015 -0400
+
+    added a badge style to the ID
+
+commit 01903e66f6c5154960a5b89442a8949e78c28d98
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 10:40:34 2015 -0400
+
+    Added final CSS
+
+commit f04e1506927ad902dc932c8c75ce546bbcaa95bd
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 09:25:26 2015 -0400
+
+    animation
+
+commit 07119a529ce396255221fcf0088ef7a1034c2b3b
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 09:24:58 2015 -0400
+
+    added styles for hover
+
+commit 3d76ad0d92fc06b4d9c43d6499c2efdfc87f39cd
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 09:24:53 2015 -0400
+
+    removed code
+
+commit d81d3131d4cb94a4200e69da7d6a39b6f7a7930e
+Author: John Papa <john@johnpapa.net>
+Date:   Sat Sep 5 09:24:18 2015 -0400
+
+    changed IDs
+
+commit 14f1381581f71b8b773f3046964bcd10b2b4b7f7
+Merge: 43b5ef4 b0f1230
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 23:43:37 2015 -0400
+
+    Merge pull request #13 from johnpapa/css
+    
+    added css for fonts and margins
+
+commit b0f123042447f47b545a0c1cd479c50ea34f3b88
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 23:43:01 2015 -0400
+
+    added css for fonts and margins
+
+commit 43b5ef459a0f99f7317c86e3d772591c8a93c11b
+Merge: c6b034e 7b0e70e
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 22:46:02 2015 -0400
+
+    Merge pull request #12 from johnpapa/init
+    
+    added new heroes from Ward
+
+commit 7b0e70eee7d97b4eafc25ec35cb77529ff693451
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 22:44:01 2015 -0400
+
+    added new heroes from Ward
+
+commit c6b034efae0b5762a31246c9cc575cd1588f5968
+Merge: c81ea5c 5478033
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 19:28:27 2015 -0400
+
+    Merge pull request #11 from johnpapa/init
+    
+    Now loading bootstrap which loads the main component.
+
+commit 54780334ed7766f6450c89c808553188429645b9
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 19:21:47 2015 -0400
+
+    added the prefix "my-" to all components
+
+commit 224d301dee99121f47cfc21f87f45d7887124219
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 19:20:06 2015 -0400
+
+    refactored to remove app component. not so sure about this :)
+
+commit c81ea5cf32631dbc7e4e7ce013cb58d1334f73dc
+Merge: 464170d 007cec0
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 09:00:28 2015 -0400
+
+    Merge pull request #10 from johnpapa/init
+    
+    unused heroes caching ... not needed since we dont leave the client .…
+
+commit 007cec0ddbeb207f415918806949ced79a865ba5
+Author: John Papa <john@johnpapa.net>
+Date:   Fri Sep 4 08:49:42 2015 -0400
+
+    unused heroes caching ... not needed since we dont leave the client ... yet
+
+commit 464170d8667d36fd48fc6bc5213c0ad4095b8899
+Merge: 4b2f4fb b627ff7
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 23:05:59 2015 -0400
+
+    Merge pull request #9 from johnpapa/init
+    
+    fixed readme with tsd
+
+commit b627ff7a36772b56348b290b606d64e12136e80b
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 23:04:35 2015 -0400
+
+    fixed readme with tsd
+
+commit 4b2f4fb1c31f5dee5fa38e4c4b22213503a0de4f
+Merge: eec5e6f 9493308
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 23:03:15 2015 -0400
+
+    Merge pull request #8 from johnpapa/init
+    
+    tsd
+
+commit 949330830b09321c440df2d3e39678d373721a3d
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 22:57:23 2015 -0400
+
+    fixed tsd npm cmd
+
+commit 2fd8055339182d42089f7795b6699772e1a98fef
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 22:57:09 2015 -0400
+
+    fixed tsd typing path
+
+commit df81b53e4e2ec5deb4b11a44bf3479694100d743
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 22:22:34 2015 -0400
+
+    simplify system.config
+
+commit 3e66468b2e8da1bbf18f760cd161b7498ec1b72a
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 18:16:27 2015 -0400
+
+    whitespace
+
+commit eec5e6f4acab418d15a833492009d775b96622c9
+Merge: d0e79d9 3470b2f
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 09:05:04 2015 -0400
+
+    Merge pull request #7 from johnpapa/init
+    
+    renamed dataservice to service
+
+commit 3470b2fe4fb45d999346d964c28105b6576a33e9
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 09:03:55 2015 -0400
+
+    renamed dataservice to service
+
+commit d0e79d9f50ff120e6eab5ed3878bbef5c58a6a79
+Merge: 773e4b3 692ad94
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:47:38 2015 -0400
+
+    Merge pull request #6 from johnpapa/init
+    
+    tweak
+
+commit 692ad94269389d1aade9156ed5d2574caa0f6ca0
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:47:19 2015 -0400
+
+    tweak
+
+commit 773e4b3254f9f4507952370b5e36171fb5742009
+Merge: dd6ac7e 63a45da
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:46:49 2015 -0400
+
+    Merge pull request #5 from johnpapa/init
+    
+    Init
+
+commit 63a45da73758fb71a5024f721c42901a4dc290f4
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:24:02 2015 -0400
+
+    simple readme
+
+commit ec97bb60830a16959c70bec37cbfdf89ab830cbb
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:23:08 2015 -0400
+
+    added pointer to css: li
+
+commit 2358f94a4231d97e303217a146e7264521deaa68
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:16:52 2015 -0400
+
+    fixed readme
+
+commit dd6ac7ebabfc94e86d38adfe829b29afca377447
+Merge: a85a2e0 98ba295
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:00:37 2015 -0400
+
+    Merge pull request #4 from johnpapa/init
+    
+    removed old code
+
+commit 98ba2952134749060f2542fe4fa03220f52dd1fa
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 01:00:07 2015 -0400
+
+    removed old code
+
+commit a85a2e0e92f8049c004f6584a1cbb300043a291b
+Merge: 10b593a af34456
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 00:58:21 2015 -0400
+
+    Merge pull request #3 from johnpapa/init
+    
+    works with latest systemjs 0.18 and angular 2 alpha36
+
+commit af344565000985bb12dc5a3cb53777c84950e55b
+Author: John Papa <john@johnpapa.net>
+Date:   Thu Sep 3 00:57:43 2015 -0400
+
+    works with latest systemjs 0.18 and angular 2 alpha36
+
+commit 10b593ad7f501515ff4f4c035d3ec097b7728c15
+Author: John Papa <john.l.papa@disney.com>
+Date:   Wed Sep 2 09:21:54 2015 -0400
+
+    added version to package.json
+
+commit 85127f0813ef62ef8b9b2dd0ce3fd9c932460539
+Merge: c290569 0777a08
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 2 00:12:25 2015 -0400
+
+    Merge pull request #2 from johnpapa/init
+    
+    Minor tweaks and README file
+
+commit 0777a08851d80600972513492aaa980a9052103a
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 2 00:11:13 2015 -0400
+
+    flip to systemjs
+
+commit ba3065d10c09bc9f2133c474351d892f4a0de52c
+Author: John Papa <john@johnpapa.net>
+Date:   Wed Sep 2 00:11:02 2015 -0400
+
+    fixed readme
+
+commit 8d4164927d6cd75aa8a0e5cb76dbcc63d2b0868b
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 23:10:42 2015 -0400
+
+    whitespace
+
+commit 458c07120f56a51ef9c4c19477bf08920be22958
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 23:10:39 2015 -0400
+
+    updated package.json versions
+
+commit 15a77f2e2fde8482462e5620901c98d802544ce5
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 23:10:23 2015 -0400
+
+    updated packages patch numbers
+
+commit 54ab7670d6de19e5a995f6f45d7a7ded22cba67a
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 23:08:59 2015 -0400
+
+    editor setting
+
+commit c290569f8689bcfbcaf5fe300071c132b26b55e3
+Merge: 79466bf 8354ce0
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 08:09:49 2015 -0400
+
+    Merge pull request #1 from johnpapa/init
+    
+    init
+
+commit 8354ce08014744428a2cdbf41e3d1a09d785fe09
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 08:09:33 2015 -0400
+
+    init
+
+commit 79466bfb9bf8275b355700f40c01c6afe9225075
+Author: John Papa <john@johnpapa.net>
+Date:   Tue Sep 1 08:03:57 2015 -0400
+
+    Initial commit
