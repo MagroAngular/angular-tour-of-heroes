@@ -33,10 +33,11 @@ export class HeroDetailComponent implements OnInit {
   }
 
   save(): void {
-    this.heroService.save(this.hero).subscribe(hero => {
-      this.hero = hero; // saved hero, w/ id if new
-      this.goBack(hero);
-    }, error => (this.error = error)); // TODO: Display error message
+    let vm = this;
+    vm.heroService.save(vm.hero).subscribe(hero => {
+      vm.hero = hero; // saved hero, w/ id if new
+      vm.goBack(hero);
+    }, error => (vm.error = error)); // TODO: Display error message
   }
 
   goBack(savedHero: Hero = null): void {
