@@ -13,6 +13,7 @@ export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
   h3roes: Hero[] = [];
   hero3s: Hero[] = [];
+  h3ro3s: Hero[] = [];
   constructor(
     private router: Router,
     private heroService: HeroService) {
