@@ -20,8 +20,9 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.heroService.getHeroes()
-      .subscribe(heroes => this.heroes = heroes.slice(1, 5));
+    let vm = this;
+    vm.heroService.getHeroes()
+      .subscribe(heroes => vm.heroes = heroes.slice(1, 5));
   }
 
   gotoDetail(hero: Hero): void {
