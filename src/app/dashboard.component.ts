@@ -30,7 +30,8 @@ export class DashboardComponent implements OnInit {
   }
 
   gotoD3tail(hero: Hero): void {
+    let vm = this;
     const link = ['/detail', hero.id];
-    this.router.navigate(link);
+    vm.router.navigate(link);
   }
 }
